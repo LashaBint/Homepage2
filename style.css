@@ -1,0 +1,151 @@
+* {
+    font-family: Ubuntu;
+}
+#container{
+   background-color: rgb(250, 250, 250);
+   padding: 30px;
+  
+}
+nav {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.nav_links {
+    list-style-type: none;
+}
+.nav_links a {
+    text-decoration: none;
+    color: black;
+
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav_links li a:hover{
+    color:blue;}
+#section {
+    display: flex;
+   flex-direction: row;
+   position: static;
+   width: 90%;
+   height: 400px;
+   margin-left: 100px;
+   padding-top: 100px;
+}
+.text {
+    padding-top:30px;
+}
+#Us {
+    display: flex;
+   flex-direction: row;
+}
+.text {
+    border: 1px solid pink;
+    height:250px;
+    padding: 10px 5px 10px 20px;
+    border-radius: 25px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 5px 5px rgba(255,192,203, 0.5);
+}
+#services{
+    /*width: 90px;
+    height:500px;
+    */
+    /*display: block;*/
+    /*clear: both;*/
+}
+#services .one img{
+    float: right;
+    margin-left: 30px;
+}
+
+#services .one{
+    width: 45%;
+    height: 220px;
+    border-radius:5px;
+    margin:10px;
+    float: left;
+    padding: 20px;
+}
+
+.title {
+    text-align:center;
+}
+
+.title h2 {
+    margin: 50px 0 30px 0;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.blue{
+    background-color: skyblue;
+}
+
+.yellow{
+    background-color: lightyellow;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+#Expectation {
+    background-color: darkred;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+
+#Expectation .title {
+    color: white;
+}
+
+#Expectation .three {
+    width: 28%;
+    border-radius:10px;
+    margin:10px;
+    float: left;
+    padding: 20px;
+    background-color: white;
+}
+#Testimonials .title {
+    color: black;
+}
+
+#Testimonials .four {
+    width: 28%;
+    border-radius:10px;
+    margin:10px;
+    float: left;
+    padding: 20px;
+    background-color: tomato;    
+}
+#Testimonials .four p {
+    color: white;
+}
+
+#contact {
+    border: 1px solid rgb(245, 200, 245);
+    background-color: rgb(247, 232, 247); 
+    border-radius: 20px;
+    width:100%
+    height:250px;
+}
+#contact h2 {
+    padding-top:15px 0px 0px 20px;
+}
+#contact .map {
+    flex-direction: row;
+    margin: 40px;
+}
+#contact .title h4 {
+   color: tomato;
+   flex-direction: inline;
+   padding: 35px 15px 0px 20px;
+}    
+}
+#footer p {
